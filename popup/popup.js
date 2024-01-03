@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ethPrice.innerHTML = "Not Found"
     }else {
         const formattedBTC = response.prices.bitcoin.toFixed(4);
-        btcPrice.innerHTML = `$ ${formattedBTC}`;
+        btcPrice.innerHTML = `$${formattedBTC}`;
 
         const formattedETH = response.prices.ethereum.toFixed(4);
         ethPrice.innerHTML = `$${formattedETH}`
